@@ -1,0 +1,20 @@
+[grafcli]
+editor = vim
+history = ~/.grafcli_history
+verbose = off
+force = on
+
+[resources]
+data-dir = ~/.grafcli
+
+[hosts]
+host.example.com = on
+
+[host.example.com]
+type = elastic
+hosts = host1.example.com,host2.example.com
+port = 9200
+index = grafana-dash
+ssl = on
+user =
+password =
